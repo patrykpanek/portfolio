@@ -15,6 +15,7 @@ import node from './images/nodejs.svg';
 import git from './images/git.png';
 import figma from './images/figma.png';
 import gsap from './images/gsap.png';
+import favi from './images/favicon.png';
 
 if (process.env.NODE_ENV === 'production') {
   console.log('Production mode');

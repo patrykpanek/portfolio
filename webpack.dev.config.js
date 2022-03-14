@@ -77,8 +77,8 @@ module.exports = {
     //   patterns: [{ from: 'images', to: 'dist', noErrorOnMissing: false }],
     // }),
     new HtmlWebpackPlugin({
-      title: 'Hello world',
-      description: 'Hello world',
+      title: 'Patryk Panek',
+      description: 'Patryk Panek',
       template: 'src/page-template.hbs',
     }),
   ],
