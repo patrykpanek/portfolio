@@ -1,0 +1,110 @@
+.skills {
+    width: 90%;
+    margin: 0 auto 40px auto;
+    
+
+    &__info {
+        display: flex;
+        justify-content: flex-end;
+        // margin-bottom: 10px;
+        h1 {
+            font-size: 30px;
+            letter-spacing: 5px;
+        }
+    }
+    &__border {
+        margin-right: 20px;
+        border-radius: 5px;
+        width: 10px;
+        height: 40px;
+        background-color: black;
+    }
+    
+
+    &__about {
+        margin-right: 20px;
+        line-height: 40px;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+    }
+    &__par {
+        font-size: 15px;
+        color: white;
+        font-weight: 200;
+        margin: 10px 0 20px 0;
+        text-align: right;
+    }
+    &__box {
+        // background-color: aquamarine;
+        width: 120px;
+        height: 120px;
+        justify-content: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.3s;
+        p {
+            text-align: center;
+            padding: 3px;
+            color: white;
+        }
+    }
+    &__box:hover {
+        transform: scale(0.9);
+    }
+    &__icon {
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 50%;
+            height: 100%;
+        }
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media  (min-width: 600px){
+    .skills {
+        &__info {
+            h1{
+                font-size: 50px;
+                line-height: 80px;
+            }
+        }
+        &__border{
+            height: 80px;
+        }
+        &__par {
+            font-size: 19px;
+            
+        }
+        &__box {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+}
+
+@media(min-width:1250px){
+    .skills{
+        &__container {
+            width: 70%;
+            margin: 0 auto;
+        }
+        &__info{
+            margin-right: 80px;
+        }
+        &__par{
+            margin-right: 90px;
+        }
+    }
+}

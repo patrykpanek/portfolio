@@ -1,0 +1,28 @@
+.burger {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.fa-xmark {
+    display: none;
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    color: black;
+    z-index: 4;
+    transition: left .4s linear;
+}
+
+.fa-bars {
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    z-index: 4;
+}
+
+@media(min-width: 1000px){
+    .burger {
+        display: none;
+    }
+}

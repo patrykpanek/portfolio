@@ -6,8 +6,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{htmlWebpackPlugin.options.description}}">
     <title>{{htmlWebpackPlugin.options.title}}</title>
+<script src="https://kit.fontawesome.com/fc6603f3f1.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <div class="wrapper">
+        <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    
+        <section class="main" id="itemhome">
+        <div class="main__label">
+            <p class="main__first">Hello</p>
+            <p class="main__first">I'm Patryk  </p>
+            <p class="main__first">Panek</p>
+            <p class="main__second">Junior Front-End Developer</p>
+        </div>
+        
+        <img class="main__img" src="./images/profil.png" alt="pp">
 
+        </section>
+
+        <section class="about" id="itemabout">
+        <div class="about__info">
+            <div class="about__border"></div>
+            <h1 class="about__about">About</h1>
+        </div>
+
+        <p class="about__description">My name is Patryk Panek I graduated from the Opole University of Technology in the field of computer science. I have been passionate about programming for a long time. In addition to programming, I love to spend time in the training room - practicing boxing, and spending time in the mountains.</p>
+
+        <div class="about__contact">
+            <div class="about__form">
+                <p class="about__main">social media</p>
+                <p class="about__second"><a href="https://www.linkedin.com/in/patryk-panek-892674175/">LinkedIn</a> <a href="https://github.com/patrykpanek">GitHub</a></p>
+            </div>
+            <div class="about__form">
+                <p class="about__main">email</p>
+                <p class="about__second">patrykpanekpk@gmail.com</p>
+            </div>
+            <div class="about__form">
+                <p class="about__main">phone</p>
+                <p class="about__second">508-376-432</p>
+            </div>
+        </div>
+        </section>
+
+        <section class="skills" id="itemskills">
+        <div class="skills__info">
+            <h1 class="skills__about">Skills</h1>
+            <div class="skills__border"></div>
+        </div>
+        <p class="skills__par">These are technologies that I use or can use. </p>
+        <div class="skills__container">
+            
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/css.svg" alt="">
+                </div>
+                <p>CSS3</p>
+            </div>
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/html5.svg" alt="">
+                </div>
+                <p>HTML5</p>
+            </div>
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/js.svg" alt="">
+                </div>
+                <p>JS</p>
+            </div>
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/sass.svg" alt="">
+                </div>
+                <p>SASS</p>
+            </div>
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/nodejs.svg" alt="">
+                </div>
+                <p>NodeJS</p>
+            </div>
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/webpack.svg" alt="">
+                </div>
+                <p>Webpack</p>
+            </div>
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/figma.png" alt="">
+                </div>
+                <p>Figma</p>
+            </div>
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/gsap.png" alt="">
+                </div>
+                <p>GSAP</p>
+            </div>
+            <div class="skills__box">
+                <div class="skills__icon">
+                    <img src="./images/git.png" alt="">
+                </div>
+                <p>Git</p>
+            </div>
+        </div>
+        </section>
+    
+        <section class="project" id="itemprojects">
+        <div class="project__info">
+            <div class="project__border"></div>
+            <h1 class="project__about">Projects</h1>
+        </div>
+        <div class="project__portfolio">
+            <a href="https://github.com/patrykpanek/portfolio"><img class="project__img" src="./images/portfolio.png" alt=""></a>
+            <div class="project__container">
+            <p class="project__paragraph"><strong>Portfolio</strong></p>
+            <p class="project__description">Website template. Created using your own design. Written in HTML using SCSS. Webpack was used as a bundler.</p>
+            </div>
+        </div>
+        <div class="project__portfolio">
+            <a href="https://github.com/patrykpanek/financeManager"><img class="project__img" src="./images/wallet.png" alt=""></a>
+            <div class="project__container">
+            <p class="project__paragraph"><strong>Wallet</strong></p>
+            <p class="project__description">A small JS-based web application that includes some basic functions such as editing and deleting. The purpose of the app is to help people record and analyze the cost of their lives.</p>
+            </div>
+        </div>
+        <div class="project__portfolio">
+            <a href="https://github.com/patrykpanek/formValidator"><img class="project__img3" src="./images/formVal.png" alt=""></a>
+            <div class="project__container">
+            <p class="project__paragraph"><strong>Form validator</strong></p>
+            <p class="project__description">Application written in pure JS, its purpose is to check the user if all his data that he gives to input is correct.</p>
+            </div>
+        </div>
+        <div class="project__portfolio">
+            <a href="https://github.com/patrykpanek/Todo-List"><img class="project__img" src="./images/todolist.png" alt=""></a>
+            <div class="project__container">
+            <p class="project__paragraph"><strong>ToDo list - advanced</strong></p>
+            <p class="project__description">An advanced to-do list written in pure JS, which aims to better manage the user's time. You can add, delete or edit tasks in the application.</p>
+            </div>
+        </div>
+        
+        </section>
+    
+    </div>
+
+    <nav class="nav">
+        <div class="nav__container">
+            
+            <i class="fa-solid fa-xmark"></i>
+            <ul class="nav__list">
+                <p class="nav__item--name">Patryk Panek</p>
+                <li class="nav__item itemhome"><a href="#itemhome">Home</a> </li>
+                <li class="nav__item itemabout"><a href="#itemabout">About me!</a> </li>
+                <li class="nav__item itemskills"><a href="#itemskills">Skills</a> </li>
+                <li class="nav__item itemprojects"><a href="#itemprojects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+
+        
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 </body>
 </html>
+
+
+

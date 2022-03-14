@@ -1,0 +1,107 @@
+.project {
+    width: 90%;
+    margin: 0 auto;
+
+    &__info {
+        display: flex;
+        justify-content: flex-start;
+        // margin-bottom: 10px;
+        h1 {
+            font-size: 30px;
+            letter-spacing: 5px;
+        }
+    }
+    &__portfolio {
+        border-bottom: 1px solid #B2BEBF;
+        margin-bottom: 40px;
+    }
+    &__paragraph {
+        margin-top: 10px;
+        color: rgb(58, 58, 58);
+        font-size: 20px;
+    }
+    &__portfolio:nth-last-child(1){
+        border-bottom: none;
+    }
+    &__description {
+        padding: 10px 0 20px 0;
+        color: white;
+        line-height: 130%;
+    }
+
+    &__border {
+        margin-left: 20px;
+        border-radius: 5px;
+        width: 10px;
+        height: 40px;
+        background-color: black;
+    }
+
+    &__about {
+        margin-left: 20px;
+        line-height: 40px;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 23px;
+        margin-bottom: 80px;
+    }
+
+    &__img {
+        width: 100%;
+    }
+    &__img3 {
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+
+
+@media  (min-width: 600px){
+    .project {
+        // margin-bottom: 60px;
+        &__info {
+            h1{
+                font-size: 50px;
+                line-height: 80px;
+                
+            }
+        }
+        &__border{
+            height: 80px;
+        }
+        &__img {
+            width: 550px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+}
+
+@media (min-width:1250px){
+    .project {
+        &__portfolio {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 75%;
+            margin: 0 auto 40px auto;
+        }
+        &__portfolio:nth-child(2){
+            flex-direction: row-reverse;
+        }
+        &__portfolio:nth-child(4){
+            flex-direction: row-reverse;
+        }
+        &__container {
+            width: 50%;
+            justify-content: flex-end;
+            padding: 10px;
+        }
+        &__info{
+            margin-left: 80px;
+        }
+    }
+}
